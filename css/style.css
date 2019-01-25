@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:700');
+/* font-family: 'Arvo', serif; */
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+/* font-family: 'Montserrat', sans-serif; */
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%
+}
+
+#showcase {
+    background: url(../img/showcase.jpeg) no-repeat top center fixed/cover;
+    position: relative;
+    min-height: 100vh;
+    color: #444;
+}
+
+#showcase .overlay {
+    content: '';
+    position: absolute;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(194, 192, 192, 0.85)
+}
+
+#showcase h1 {
+    font-family: 'Arvo', serif;    
+    font-size: 5rem;
+    padding-top: 25vh;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+#showcase p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem
+}
