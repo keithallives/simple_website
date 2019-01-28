@@ -15,6 +15,7 @@ img {
     width: 100%
 }
 
+/* Showcase */
 #showcase {
     background: url(../img/showcase.jpeg) no-repeat top center fixed/cover;
     position: relative;
@@ -43,4 +44,12 @@ img {
 #showcase p {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem
+}
+
+/* Video */
+#video {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
